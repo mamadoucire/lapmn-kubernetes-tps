@@ -2,7 +2,7 @@
 pipeline {
   agent any 
   stages{
-    stage('tes't){
+    stage('test'){
       steps {
       HelloWord(nom:"diane", dayOfWeek:"saturday")
       }
