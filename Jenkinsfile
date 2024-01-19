@@ -1,10 +1,12 @@
-@Library("share-library") _
+@Library ('share-library') _
 pipeline {
   agent any 
   stages{
     stage('test'){
       steps {
-      HelloWord(nom:"diane", dayOfWeek:"saturday")
+        script{
+           HelloWord(nom:"diane", dayOfWeek:"saturday")
+        }
       }
     }
   }
