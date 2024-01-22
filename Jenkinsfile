@@ -5,7 +5,7 @@ pipeline {
     stage('test'){
       steps {
         script{
-           HelloWord(nom:"diane", dayOfWeek:"saturday")
+           helloWord(nom:"diane", dayOfWeek:"saturday")
         }
       }
     }
